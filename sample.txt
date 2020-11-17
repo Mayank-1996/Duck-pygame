@@ -1,0 +1,8 @@
+start_ticks=pg.time.get_ticks()
+
+seconds=(pg.time.get_ticks()-start_ticks)/1000 
+
+if seconds>10:
+        screen.blit(message_GO,message_rect) 
+        time.sleep(3)
+        break
